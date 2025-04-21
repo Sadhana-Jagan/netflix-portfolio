@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    color: #fff;
+    background-color: #000;
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+}
+
+.friend-body {
+    min-height: 100vh;
+    align-items:start;
+    justify-content:top;
+    overflow-x: hidden;
+    display: block;
+}
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 1000;
+    
+
+}
+
+nav.solid {
+    background: #000;
+}
+
+
+nav img {
+    margin-right: 15px;
+    width: 100px;
+    position: relative; 
+    background: transparent;
+}
+
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+
+a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: inherit;
+    background: transparent;
+}
+
+.initial-gif{
+    padding: 0;
+    z-index: 1;
+    width: 100vw;
+    max-height: 650px;
+    top:0;
+}
+
+.top-content{
+    position: absolute;
+    top:0;
+    background-image: url("/assets/images/initial-gif/friends-work.gif");
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 650px;
+    max-width: 100vw;
+    
+
+}
+
+
+
+
+
+.top-content > h1{
+    font-size: 40px;
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    background-color: transparent;
+}
+
+.top-content > p{
+    position: absolute;
+    top:285px;
+    left: 40px;
+    width: 700px;
+    text-align: start;
+    font-size: x-large;
+    background-color: transparent;
+}
+
+.resume-linkedin > img{
+    position: absolute;
+
+    top: 530px;
+    border-radius: 8px;
+}
+
+.resume{    
+    width: 200px;
+    left: 40px;
+    height: 58px;
+    cursor: pointer;
+}
+
+
+
+.linkedin{
+    position: absolute;
+    top: 530px;
+    border-radius: 8px;
+    margin-top: 0;
+    width: 225px;
+    height: 60px;
+    left:270px; 
+    cursor: pointer;
+    background-color: transparent;
+    font-size: x-large;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+
+    border-radius: 12px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.top-content h1, 
+.top-content p, 
+.resume-linkedin > img {
+    z-index: 2;
+    position: absolute;
+    background-color: transparent;
+}
+
+.navigation-bar > img {
+    background-color: transparent;
+}
+
+.navigation-bar > a {
+    background-color: transparent;
+}
+
+.info-icon{
+    width: 39px;
+    height: 39px;
+    margin-right: 18px;
+    background-color: transparent;
+}
+
+.today-pick{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+    position: absolute;
+    top:700px;
+   
+}
+
+.today-pick > h1{
+    text-align: left;
+    width: 100%;
+    margin-left:25px;
+}
+
+.today-top-picks{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    width: 100vw;
+    height: 225px;
+    gap:25px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;        /* Firefox */
+    -ms-overflow-style: none; 
+
+
+
+}
+
+
+
+.today-top-picks::after {
+    content: '';
+    flex: 0 0 1rem;  /* Adjust for spacing */
+}
+
+.today-top-picks::-webkit-scrollbar {
+    display: none;                /* Chrome, Safari, Opera */
+}
+
+.continue-watching-main{
+    text-align: start;
+    position: absolute;
+    top:1000px;
+}
+
+.continue-watching-main>h1{
+    margin-left: 25px;
+}
+
+

@@ -1,0 +1,25 @@
+.backend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E1E;
+    width: 185px;
+    height: 215px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px  #E50914;
+}
+
+.backend > img{
+    height: 75px;
+    background: transparent;
+} 
+
+.backend > h2{
+    text-align: center;
+    margin-top: 15px;
+    font-size: xx-large;
+    background: transparent;
+    margin-left: 0;
+
+}

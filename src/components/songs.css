@@ -1,0 +1,22 @@
+.songs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+.songs-main > h1{
+    margin-top: 80px;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.songs-main::after{
+    content: "";
+    display: block;
+    height: 60px;
+}
+

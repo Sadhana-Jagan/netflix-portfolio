@@ -1,0 +1,35 @@
+.certificate-comp{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #1e1e1e;
+    width:450px;
+    height: 275px;
+    box-shadow: 10px 10px 10px #E50914;
+    border-radius: 10px;
+}
+
+.certificate-comp >img,h2,button{
+    margin-left: 25px;
+
+}
+
+.certificate-comp > button{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    background-color: #E50914;
+    color: white;
+    cursor: pointer;
+    font-family: 'BebasNeue';
+    font-size: large;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.certificate-comp > img{
+    margin-top: 20px;
+    background: transparent;
+    width: 50px;
+    height:50px;
+}

@@ -1,0 +1,28 @@
+.educations{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+.education-main {
+    padding: 0;
+    margin:30px;
+    margin-left: 0;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.education-main > h1{
+
+    font-size: xxx-large;
+    text-align: center;
+}
+
+.education-main::after {
+    content: "";
+    display: block;
+    height: 100px; /* or any padding you need */
+  }

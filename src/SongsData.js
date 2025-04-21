@@ -1,0 +1,34 @@
+export default [
+    {
+        src:"/assets/images/music/charlie.jpg",
+        link:"https://open.spotify.com/album/0mZIUXje90JtHxPNzWsJNR?si=mpmYLed9RKaAUYaopierTA"
+    },
+    {
+        src:"/assets/images/music/linew_ohook.jpg",
+        link:"https://open.spotify.com/track/5NvOZCjZaGGGL597exlQWv?si=49cdbd54145e43b5"
+    },
+    {
+        src:"/assets/images/music/labit.jpg",
+        link:"https://open.spotify.com/track/4zGmsDdgSzdfsCNUGjq89Z?si=6e6e202baaac44e1"
+    },
+    {
+        src:"/assets/images/music/prateek.jpg",
+        link:"https://open.spotify.com/track/3hB9lDLyAClYVZivMMl20N?si=5d5fc489f0554141"
+    },
+    {
+        src:"/assets/images/music/laufey.jpg",
+        link:"https://open.spotify.com/track/6cx5CvFhqN19efStehJqoW?si=6183557e27e94356"
+    },
+    {
+        src:"/assets/images/music/abhi.jpg",
+        link:"https://open.spotify.com/track/0C47mkZ7VGcnKBvEG7PiAP?si=11bfea0e81674723"
+    },
+    {
+        src:"/assets/images/music/wildflower.jpg",
+        link:"https://open.spotify.com/track/3QaPy1KgI7nu9FJEQUgn6h?si=fceb90579fa544d5"
+    },
+    {
+        src:"/assets/images/music/conan-gray.jpg",
+        link:"https://open.spotify.com/album/5hIOd0FvjlgG4uLjXHkFWI?si=ENJxzr6ETvmSyKNMiJ9ukg"
+    },
+]

@@ -1,0 +1,30 @@
+.education-comp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #1e1e1e;
+    width:430px;
+    height: 275px;
+    box-shadow: 10px 10px 10px #E50914;
+    border-radius: 10px;
+
+}
+
+.education-comp >h1,h2{
+    color: white;
+    margin-left: 25px;
+    background: transparent;
+
+}
+
+.education-comp > h2{
+    opacity: 50%;
+}
+
+.education-first-h1{
+    margin-top: 15px;
+}
+
+
+
+

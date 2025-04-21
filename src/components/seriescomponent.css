@@ -1,0 +1,26 @@
+.series-comp{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: 4px solid #595959;
+}
+
+.series-comp > img{
+    max-width: 392px;
+    width: 392px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+
+}
+
+.series-comp:hover{
+    box-shadow: 10px 10px 10px #E50914;
+}
+
+.series-comp > h2{
+    margin-top: 10px;
+    margin-left: 0;
+    text-align: center;
+}

@@ -1,0 +1,24 @@
+*{
+    color: white;
+    background-color: black;
+    font-family: 'Netflix Sans',Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.profile-icon-container{
+
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.profile-icon-container > img{
+    width: 100%;
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.profile-icon-container > p{
+    margin-top: 10px;
+    font-size: x-large;
+}

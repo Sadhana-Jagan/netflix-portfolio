@@ -1,0 +1,61 @@
+.chess-than-nav{
+    margin-top: 100px;
+}
+
+.chess-than-nav > h1{
+    text-align: center;
+    font-size: xxx-large;
+    margin-bottom: 25px;
+}
+
+.my-chess{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+
+.my-chess > img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #E50914;
+    margin-bottom: 25px;
+
+}
+
+.fav-chess-section{
+    display: flex;
+    justify-content: center;
+}
+
+.fav-chess{
+    width: 400px;
+    height: 325px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #E50914;
+    
+}
+
+.fav-chess > img{
+    max-width: 400px;
+    max-height: 250px;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+
+}
+
+.fav-chess > h1{
+    background: transparent;
+    text-align: center;
+
+}
+
+.chess-than-nav::after{
+    content: "";
+    display: block;
+    height: 50px;
+}

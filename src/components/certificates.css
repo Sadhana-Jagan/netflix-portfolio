@@ -1,0 +1,14 @@
+.certificates{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.certificates-main > h1{
+
+    font-size: xxx-large;
+    text-align: center;
+}

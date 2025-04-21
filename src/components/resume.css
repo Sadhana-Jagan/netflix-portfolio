@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.view-pdf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}

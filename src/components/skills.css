@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding:0;
+    
+    color: #fff;
+    background-color: #000;
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+}
+
+.skills-main {
+    align-items:start;
+    margin-top: 400px;
+    overflow-x: hidden;
+    display: block;
+}
+
+.other-than-nav{
+    padding: 15px;
+}
+
+.backend-components{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    justify-content: center;
+
+}
+
+.elements-heading{
+    margin-top: 75px;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.database-components{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.frontend-components{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.skills-main::after {
+    content: "";
+    display: block;
+    height: 100px; /* or any padding you need */
+}
